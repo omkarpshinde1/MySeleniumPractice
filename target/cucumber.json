@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-07T13:11:20.135Z",
+        "line": 3,
+        "name": "Register User on given website",
+        "description": "",
+        "id": "register-user;register-user-on-given-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697211400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDefinations.Resistration.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7054403500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see the Register page",
+            "match": {
+              "location": "StepDefinations.Resistration.user_see_the_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12977742300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User able to fill all the details on page",
+            "match": {
+              "location": "StepDefinations.Resistration.user_able_to_fill_all_the_details_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register user",
+    "description": "",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Registration.feature",
+    "tags": []
+  }
+]
