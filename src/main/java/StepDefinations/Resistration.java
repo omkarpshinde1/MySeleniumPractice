@@ -48,8 +48,8 @@ public class Resistration
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/ul[1]/li[7]/a/div")).click();
-        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/form/div[2]/input")).sendKeys("omkarpshinde@gmail.com");
-        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/form/div[3]/input")).sendKeys("14Omkar@1989");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/form/div[2]/input")).sendKeys("Your Email ID");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/form/div[3]/input")).sendKeys("Your Password");
         driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/form/div[6]")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         System.out.println("We have Successfully logged in Naukari profile");
